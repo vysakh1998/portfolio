@@ -1,0 +1,216 @@
+.parent-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #f6f6f2;
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #388087;
+  }
+
+  h2 {
+    font-weight: bold;
+    color: #388087;
+  }
+
+  h5 {
+    font-weight: bold;
+    color: #272343;
+  }
+
+  p {
+    color: #bbbbbb;
+    max-width: 600px;
+  }
+
+  .navbar {
+    background: #eef0f4;
+    background-repeat: no-repeat;
+    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+
+    .navbar-brand {
+      font-size: 30px;
+      font-weight: bold;
+      color: #184656;
+      margin-left: 50px;
+    }
+
+    .collapse {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 50px;
+
+      .nav-item {
+        margin: 0 10px;
+        font-weight: 500;
+      }
+    }
+  }
+  // hero section
+  .banner {
+    background-image: url(/assets/happy-man.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f9f9;
+
+    h2 {
+      font-weight: 500;
+    }
+  }
+
+  // about section
+  .about {
+    padding: 100px 0 0 0;
+    .profile-img {
+      img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+    .download-link {
+      padding: 10px 0;
+      transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
+      a {
+        text-decoration: none;
+        padding: 10px 20px;
+        color: white;
+        background: #184656;
+        border-radius: 10px;
+      }
+      a:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  // my work
+
+  .my-works {
+    padding: 80px 0;
+    background: #f6f6f2;
+    .work-title {
+      padding-bottom: 20px;
+    }
+    a {
+      text-decoration: none;
+    }
+    .card {
+      padding: 30px;
+      max-width: 350px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 15px;
+      border: none;
+      box-shadow: 0.3px 0.3px 8px #e8e8e8, -0.3px -0.3px 8px #ffffff;
+      transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
+      img {
+        width: 70px;
+        margin-left: 15px;
+      }
+    }
+
+    .card:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  //   skills
+
+  .skills {
+    padding: 50px 0;
+
+    .carousel-inner {
+      padding: 50px 0;
+      .carousel-item {
+        img {
+          width: 100px;
+        }
+      }
+    }
+
+    .carousel-control-next-icon {
+      background-image: url(/assets/right-arrow.png);
+      margin-left: 60px;
+    }
+    .carousel-control-prev-icon {
+      background-image: url(/assets/left-arrow.png);
+      margin-right: 50px;
+    }
+  }
+
+  //   experiance {
+  .experiance {
+    .exp {
+      padding: 50px 0 30px 0;
+    }
+    a {
+      text-decoration: none;
+    }
+    .card {
+      padding: 30px;
+      max-width: 350px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 15px;
+      border: none;
+      box-shadow: 0.3px 0.3px 8px #e8e8e8, -0.3px -0.3px 8px #ffffff;
+      transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
+      img {
+        width: 140px;
+        margin-left: 15px;
+      }
+
+      .immabeme,
+      .creative {
+        width: 50px;
+      }
+      h2 {
+        font-size: 25px;
+        color: #184656;
+      }
+      h3 {
+        font-size: 20px;
+      }
+      h5 {
+        font-size: 15px;
+      }
+    }
+
+    .card:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .contact {
+    padding: 30px 0 0 0;
+    .info {
+      padding: 20px 0;
+      background: #c2edce;
+
+      img {
+        width: 30px;
+        margin-right: 10px;
+      }
+      span {
+        font-size: 22px;
+
+        a {
+          text-decoration: none;
+          color: #0d6efd;
+        }
+      }
+
+      .info-detail {
+        img {
+          width: 35px;
+        }
+      }
+    }
+  }
+}
