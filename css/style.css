@@ -1,7 +1,8 @@
 .parent-container {
   max-width: 1440px;
   margin: 0 auto;
-  background-color: #f6f6f2; }
+  background-color: #f6f6f2;
+  font-family: "Lato", sans-serif; }
   .parent-container h1 {
     font-size: 40px;
     font-weight: bold;
@@ -29,7 +30,7 @@
     .parent-container .navbar .navbar-toggler {
       box-shadow: none; }
   .parent-container .banner {
-    background-image: url(/assets/happy-man.jpg);
+    background-image: url(assets/happy-man.jpg);
     background-position: center top;
     background-size: cover;
     height: 400px;
@@ -85,10 +86,10 @@
       .parent-container .skills .carousel-inner .carousel-item img {
         width: 100px; }
     .parent-container .skills .carousel-control-next-icon {
-      background-image: url(/assets/right-arrow.png);
+      background-image: url(assets/right-arrow.png);
       margin-left: 60px; }
     .parent-container .skills .carousel-control-prev-icon {
-      background-image: url(/assets/left-arrow.png);
+      background-image: url(assets/left-arrow.png);
       margin-right: 50px; }
   .parent-container .experiance .exp {
     padding: 50px 0 30px 0; }
