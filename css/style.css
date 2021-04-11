@@ -22,15 +22,12 @@
     .parent-container .navbar .navbar-brand {
       font-size: 30px;
       font-weight: bold;
-      color: #184656;
-      margin-left: 50px; }
-    .parent-container .navbar .collapse {
-      display: flex;
-      justify-content: flex-end;
-      margin-right: 50px; }
-      .parent-container .navbar .collapse .nav-item {
-        margin: 0 10px;
-        font-weight: 500; }
+      color: #184656; }
+    .parent-container .navbar .collapse .nav-item {
+      margin: 0 10px;
+      font-weight: 500; }
+    .parent-container .navbar .navbar-toggler {
+      box-shadow: none; }
   .parent-container .banner {
     background-image: url(/assets/happy-man.jpg);
     background-position: center top;
@@ -136,5 +133,65 @@
           color: #0d6efd; }
       .parent-container .contact .info .info-detail img {
         width: 35px; }
+
+@media (max-width: 480px) {
+  .parent-container h1,
+  .parent-container h2,
+  .parent-container h3,
+  .parent-container h5,
+  .parent-container p {
+    text-align: center; }
+  .parent-container .banner {
+    height: 300px;
+    background-position: inherit; }
+    .parent-container .banner .overlay {
+      background: #388087;
+      opacity: 0.6;
+      mix-blend-mode: multiply;
+      position: absolute;
+      width: 100%;
+      height: 300px;
+      max-width: 1440px;
+      z-index: 0; }
+  .parent-container .about .download-link {
+    margin: 0 auto;
+    width: 200px; }
+  .parent-container .my-works {
+    padding: 30px 0; }
+    .parent-container .my-works .card {
+      margin: 10px auto; }
+      .parent-container .my-works .card img {
+        margin: 0px auto; }
+  .parent-container .skills {
+    padding: 0; }
+    .parent-container .skills .carousel-inner .carousel-item img {
+      margin: 10px 0; }
+    .parent-container .skills .carousel-control-prev-icon {
+      margin-right: 0; }
+    .parent-container .skills .carousel-control-next-icon {
+      margin-left: 0; }
+  .parent-container .experiance .exp {
+    padding: 10px 0; }
+  .parent-container .experiance .card {
+    margin: 10px auto; }
+    .parent-container .experiance .card img {
+      margin: 0 auto; }
+  .parent-container footer .info {
+    text-align: center; }
+    .parent-container footer .info .email {
+      margin: 20px 0; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .parent-container .my-works .card {
+    margin: 20px auto; }
+  .parent-container .experiance .card {
+    min-height: 267px;
+    margin: 20px auto; } }
+@media (min-width: 991px) {
+  .parent-container .navbar .navbar-brand {
+    margin-left: 50px; }
+  .parent-container .navbar .collapse {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px; } }
 
 /*# sourceMappingURL=style.css.map */

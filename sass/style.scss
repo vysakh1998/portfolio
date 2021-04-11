@@ -2,6 +2,7 @@
   max-width: 1440px;
   margin: 0 auto;
   background-color: #f6f6f2;
+  font-family: "Lato", sans-serif;
   h1 {
     font-size: 40px;
     font-weight: bold;
@@ -32,18 +33,17 @@
       font-size: 30px;
       font-weight: bold;
       color: #184656;
-      margin-left: 50px;
     }
 
     .collapse {
-      display: flex;
-      justify-content: flex-end;
-      margin-right: 50px;
-
       .nav-item {
         margin: 0 10px;
         font-weight: 500;
       }
+    }
+
+    .navbar-toggler {
+      box-shadow: none;
     }
   }
   // hero section
@@ -210,6 +210,120 @@
         img {
           width: 35px;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .parent-container {
+    h1,
+    h2,
+    h3,
+    h5,
+    p {
+      text-align: center;
+    }
+
+    .banner {
+      height: 300px;
+      background-position: inherit;
+      .overlay {
+        background: #388087;
+        opacity: 0.6;
+        mix-blend-mode: multiply;
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        max-width: 1440px;
+        z-index: 0;
+      }
+    }
+
+    .about {
+      .download-link {
+        margin: 0 auto;
+        width: 200px;
+      }
+    }
+
+    .my-works {
+      padding: 30px 0;
+      .card {
+        margin: 10px auto;
+        img {
+          margin: 0px auto;
+        }
+      }
+    }
+
+    .skills {
+      padding: 0;
+      .carousel-inner {
+        .carousel-item {
+          img {
+            margin: 10px 0;
+          }
+        }
+      }
+      .carousel-control-prev-icon {
+        margin-right: 0;
+      }
+      .carousel-control-next-icon {
+        margin-left: 0;
+      }
+    }
+
+    .experiance {
+      .exp {
+        padding: 10px 0;
+      }
+      .card {
+        margin: 10px auto;
+        img {
+          margin: 0 auto;
+        }
+      }
+    }
+
+    footer {
+      .info {
+        text-align: center;
+
+        .email {
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .parent-container {
+    .my-works {
+      .card {
+        margin: 20px auto;
+      }
+    }
+    .experiance {
+      .card {
+        min-height: 267px;
+        margin: 20px auto;
+      }
+    }
+  }
+}
+
+@media (min-width: 991px) {
+  .parent-container {
+    .navbar {
+      .navbar-brand {
+        margin-left: 50px;
+      }
+      .collapse {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
       }
     }
   }
